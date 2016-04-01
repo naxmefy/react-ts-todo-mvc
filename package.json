@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "postinstall": "tsd install && tsc -p js",
+    "postinstall": "tsd install && ! tsc -p js",
     "start": "http-server"
   },
   "dependencies": {
